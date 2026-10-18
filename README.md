@@ -1,16 +1,67 @@
-# React + Vite
+# Customer & Vendor Onboarding Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive onboarding form built with React.js and Vite.
+The application provides separate onboarding flows for customers
+and vendors, with multi-step forms, input validation, document
+uploads, and review screens.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Project](https://vanisha03-kalla.github.io/onboarding-form/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Separate Customer and Vendor onboarding forms
+- Multi-step form navigation
+- Personal and business information fields
+- Form validation for required fields and input formats
+- Document uploads with file type and size validation
+- Progress indicator showing the current and completed steps
+- Review screens before submission
+- Success screens after completing the form
+- Responsive user interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- CSS
+- Vite
+- Git and GitHub
+- GitHub Pages for deployment
+
+## Run Locally
+
+1. Clone the repository:
+
+   git clone https://github.com/Vanisha03-kalla/onboarding-form.git
+
+2. Navigate to the project directory:
+
+   cd onboarding-form
+
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL displayed in your terminal.
+
+## Build for Production
+
+Run the following command:
+
+    npm run build
+
+The production-ready files are generated in the `dist` directory.
+
+## Deployment
+
+The project is deployed using GitHub Pages.
+
+## Author
+
+Vanisha Kalla
